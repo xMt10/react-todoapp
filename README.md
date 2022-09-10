@@ -1,3 +1,17 @@
+# Todo App
+
+## I created the todo app using react. In addition,data is stored with localstorage. This means that you can easily use your previous entries without losing your data every time when you enter the site. 
+
+### I've published the project on Netlify, demo link is https://xtodoapp.netlify.app/
+
+### Here is preview:
+
+![Banner gif](https://github.com/xMt10/react-todoapp/blob/main/bakground.jpg)
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
