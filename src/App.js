@@ -46,18 +46,19 @@ function App() {
       alert("You have the todo already");
       return;
     }
-    if(isEdit === true){
-      const searchedTodo = todos.find((item) => item.id = willUpdateTodo);
-      const updatedTodo = {
-        ...searchedTodo,
-        text: todoText
-      }
-      const filteredTodos = todos.filter((item) => item.id !== willUpdateTodo);
-      setTodos([...filteredTodos,updatedTodo]);
-      localStorage.setItem("todos",JSON.stringify([...filteredTodos,updatedTodo]));
-      setTodoText("");
-      setIsEdit(false);
-      setWillUpdateTodo("");
+      if (isEdit === true) {
+        
+        const searchedTodo = todos.find((item) => item.id === willUpdateTodo);
+        const updatedTodo = {
+          ...searchedTodo,
+          text: todoText,
+        };
+        const filteredTodos = todos.filter((item) => item.id !== willUpdateTodo);
+        setTodos([...filteredTodos, updatedTodo]);
+        localStorage.setItem("todos",JSON.stringify([...filteredTodos,updatedTodo]));
+        setTodoText("");
+        setIsEdit(false);
+        setWillUpdateTodo("");
 
     }else{
       
