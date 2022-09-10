@@ -6,7 +6,7 @@
 
 ### Here is preview:
 
-![Banner gif](https://github.com/xMt10/react-todoapp/blob/main/bakground.jpg)
+![Banner gif](https://github.com/xMt10/react-todoapp/blob/main/Todo%20App.gif)
 
 
 
